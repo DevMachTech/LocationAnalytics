@@ -1,4 +1,4 @@
-name: hypeltext
+name: localytics
 on: push
 jobs:
   test_code:
@@ -8,7 +8,7 @@ jobs:
       - name: Install Python 3
         uses: actions/setup-python@v3
         with:
-          python-version: '3.7.9'
+          python-version: '3.9.0y'
 
       - name: Install Poetry
         uses: abatilo/actions-poetry@v2.1.4
@@ -25,7 +25,7 @@ jobs:
             poetry-${{ hashFiles('**/poetry.lock') }}
 
       - name: Set poetry config
-        run: |
+        run: poetry install
           poetry config virtualenvs.in-project false
           poetry config virtualenvs.path ~/.virtualenvs
 
