@@ -159,7 +159,7 @@ pre-commit==2.18.1
 preshed==3.0.6
 prettytable==3.3.0
 prometheus-client==0.12.0
-prompt-toolkit==3.0.24
+prompt-toolkit==3.0.29
 protobuf==3.20.0
 py==1.11.0
 py4j==0.10.9.5
