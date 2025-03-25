@@ -23,7 +23,7 @@ bpemb==0.3.3
 cachetools==5.0.0
 catalogue==2.0.6
 catboost==1.0.6
-certifi==2021.10.8
+certifi==2024.7.4
 cffi==1.15.0
 cfgv==3.3.1
 charset-normalizer==2.0.12
